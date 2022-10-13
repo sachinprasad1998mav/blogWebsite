@@ -1,0 +1,25 @@
+
+
+{%extends 'base.html' %}
+
+{%block title%} Welcome to IBLOGS {%endblock%}
+
+{%block content%}
+
+<div class="container">
+    <div class="jumbotron, margin">
+        <div class="bottom">
+            <div class="bio">
+            {% load static %}
+            <img style="height: 500px; width: 50%; display: block; margin-left: auto; margin-right: auto; margin-top:1%; border-radius:50%; " 
+            src="{%static 'images/sachin.JPEG' %}" alt="My image" />
+            <h1 align="center">Details :</h1>
+            <h1 align="center">Name : Sachin Satish Prasad</h1>
+            <h1 align="center">I am a Computer Science Grad student at California State University, Chico.</h1>
+            <h1 align="center">I am very much interested in playing pool & boxing</h1>
+            </div>
+      </div>
+    </div>
+</div>
+
+{%endblock%}
